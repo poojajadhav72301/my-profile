@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Employee Application Form </title>
+    </head>
+    <body>
+        
+       <form>
+
+           <fieldset>
+               <legend> <b> Employee Application Form </b> </legend>
+           
+          <table>
+            <tbody>
+                <tr>
+                    <td> <label>Full Name: </label> </td>
+                    <td> <input type="text" name="fullname" placeholder="full name" maxlength="40" autofocus required> </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Email: </label> </td>
+                    <td> <input type="email" name="email" placeholder="abc@gmail.com" required> </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Password: </label> </td>
+                    <td> <input type="password" name="pass" required> </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Contact No: </label> </td>
+                    <td> <input type="number" name="contact" required> </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Profile Photo: </label> </td>
+                    <td> <input type="file" name="profile"> </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Date of birth</label> </td>
+                    <td> <input type="date" name="birth" required> </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Gender: </label> </td>
+                    <td>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                        <input type="radio" name="gender">Other
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Marital Status: </label> </td>
+                    <td>
+                        <input type="radio" name="status">Single
+                        <input type="radio" name="status">Married
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Tools & Technology: </label> </td>
+                    <td>
+                        <input type="checkbox" name="tools">Angular
+                        <input type="checkbox" name="tools">React
+                        <input type="checkbox" name="tools">Python
+                        <input type="checkbox" name="tools">Java
+                        <input type="checkbox" name="tools">Jenkin
+                        <input type="checkbox" name="tools">GIT
+                        <input type="checkbox" name="tools">Database
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Profile: </label> </td>
+                    <td>
+                        <select>
+                            <option>Select one</option>
+                            <option>UI Developer</option>
+                            <option>Backend Developer</option>
+                            <option>Full Stack Developer</option>
+                            <option>DevOps Engineer</option>
+                            <option>Tester</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Country: </label> </td>
+                    <td> <input type="text" name="country" value="India" readonly> </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Address: </label> </td>
+                    <td> <textarea name="address" cols="40" rows="10"></textarea> </td>
+                </tr>
+
+                <tr>
+                    <td> <button type="submit" name="btnsubmit">Submit</button> </td>
+                    <td> <button type="reset" name="btncancel">Cancel</button> </td>
+                </tr>
+            </tbody>
+          </table>
+        </fieldset>
+
+       </form>
+
+    </body>
+</html>
