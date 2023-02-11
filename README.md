@@ -4,6 +4,7 @@ Tools and Technology
  Tools :
    1] VS code
    2] GitHub tool
+   3] GitBash
    
   Technology :
     1] HTML5
